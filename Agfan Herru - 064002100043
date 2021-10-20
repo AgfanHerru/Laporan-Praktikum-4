@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 18 22:29:35 2021
+
+@author: hp
+NAMA: AGFAN HERRU PRATAMA
+NIM: 064002100043
+"""
+
+print ("@@@@ @@@@ @@@@ @@@@ @@   @")
+print ("@  @ @    @    @  @ @ @  @")
+print ("@@@@ @ @@ @@@@ @@@@ @  @ @")
+print ("@  @ @@@@ @    @  @ @   @@")
+
+aku=0
+while aku == 0:
+    k=input('masukan list angka: ')
+    genap=[]
+    ganjil=[]
+    for k in k.split():
+        if int(k)%2==0:
+                print('terdapat bilangan genap')
+                break
+            
+        if int(k)%2==1:
+            
+            genap.append(int(k))
+            print('terdapat bilangan genap')
+            break
+        
+        else:
+            print('tidak terdapat bilangan genap')
